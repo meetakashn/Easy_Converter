@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">easyconverter</string>
+    <string name="Home">Home</string>
+    <string name="Length">length</string>
+    <string name="weight">Weight</string>
+    <string name="currency">Currency</string>
+    <string name="temperature">Temperature</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="easy_converter">Easy Converter</string>
+    <string name="Select">Select</string>
+    <string name="value">value</string>
+    <string name="_000_00">000.00</string>
+
+</resources>

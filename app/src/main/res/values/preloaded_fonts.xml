@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/arizonia</item>
+        <item>@font/atomic_age</item>
+        <item>@font/audiowide</item>
+        <item>@font/contrail_one</item>
+        <item>@font/convergence</item>
+        <item>@font/give_you_glory</item>
+        <item>@font/m_plus_rounded_1c_thin</item>
+        <item>@font/stick</item>
+        <item>@font/syne_tactile</item>
+    </array>
+</resources>

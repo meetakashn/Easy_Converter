@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Length"
+        android:title="@string/Length"
+        android:icon="@drawable/baseline_design_services_24"/>
+    <item
+        android:title="@string/weight"
+        android:id="@+id/weight"
+        android:icon="@drawable/baseline_fitness_center_24"/>
+    <item
+        android:id="@+id/Currency"
+        android:title="@string/currency"
+        android:icon="@drawable/baseline_monetization_on_24"/>
+    <item
+        android:title="@string/temperature"
+        android:id="@+id/temp"
+        android:icon="@drawable/baseline_thermostat_auto_24"/>
+    <item
+        android:id="@+id/Home"
+        android:title="@string/Home"
+        android:icon="@drawable/baseline_home_24" />
+</menu>
