@@ -31,6 +31,7 @@
         android:autofillHints=""
         android:background="#FF7070"
         android:backgroundTint="#FF0000"
+        android:drawableRight="@android:drawable/ic_menu_edit"
         android:ems="10"
         android:gravity="center"
         android:hint="@string/value"

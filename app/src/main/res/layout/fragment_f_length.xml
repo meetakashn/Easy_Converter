@@ -30,7 +30,7 @@
         android:layout_toStartOf="@+id/spin1"
         android:autofillHints=""
         android:background="#FF7070"
-        android:backgroundTint="#1B0E0E"
+        android:backgroundTint="#00B0FF"
         android:drawableRight="@android:drawable/ic_menu_edit"
         android:ems="10"
         android:gravity="center"
@@ -321,7 +321,7 @@
         android:textColor="#0C0505"
         android:textColorHint="#000000"
         app:icon="@drawable/baseline_sync_24"
-        app:iconTint="#FFFFFF" />
+        app:iconTint="#000000" />
 
 
 </RelativeLayout>
