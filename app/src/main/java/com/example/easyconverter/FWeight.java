@@ -23,7 +23,7 @@ public class FWeight extends Fragment {
     Spinner spin1;
     EditText editText;
     TextView MG1, CG1, DG1, GM1, HM1, KM1, TON1;
-    Button button;
+    Button button,clear;
     DecimalFormat df = new DecimalFormat("0.0000000");
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -32,6 +32,7 @@ public class FWeight extends Fragment {
         spin1=view.findViewById(R.id.spin1);
         editText = view.findViewById(R.id.value1);
         button = view.findViewById(R.id.button);
+        clear = view.findViewById(R.id.clear);
         MG1 = view.findViewById(R.id.MG1);
         CG1 = view.findViewById(R.id.CG1);
         DG1 = view.findViewById(R.id.DG1);
@@ -162,6 +163,12 @@ public class FWeight extends Fragment {
                     TON1.setText(df.format(TON));
                 }
                 Toast.makeText(view.getContext(), "Thanks For using this app", Toast.LENGTH_SHORT).show();
+            }
+        });
+        clear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editText.getText().clear();
             }
         });
         return view;

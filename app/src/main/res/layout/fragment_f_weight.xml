@@ -317,11 +317,24 @@
         android:layout_below="@+id/textView3"
         android:layout_alignParentStart="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="@dimen/_100sdp"
-        android:layout_marginTop="@dimen/_295sdp"
+        android:layout_marginStart="@dimen/_39sdp"
+        android:layout_marginTop="@dimen/_300sdp"
         android:backgroundTint="#FF0000"
         android:text="Convert"
         app:icon="@drawable/baseline_sync_24" />
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/_160sdp"
+        android:layout_marginTop="@dimen/_376sdp"
+        android:backgroundTint="#FF0000"
+        android:gravity="center"
+        android:text="Clear"
+        android:textColorHighlight="#00FFFFFF"
+        app:iconTint="#FFFFFF" />
 
 
 </RelativeLayout>

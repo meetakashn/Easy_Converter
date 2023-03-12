@@ -20,7 +20,7 @@ public class FLength extends Fragment {
     Spinner spin1;
     EditText editText;
     TextView M1, MM1, CM1, YD1, KM1, IN1, FT1;
-    Button button;
+    Button button,clear;
     DecimalFormat df = new DecimalFormat("0.00000");
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -29,6 +29,7 @@ public class FLength extends Fragment {
         spin1=view.findViewById(R.id.spin1);
         editText = view.findViewById(R.id.value1);
         button = view.findViewById(R.id.button);
+        clear=view.findViewById(R.id.clear);
         M1 = view.findViewById(R.id.M1);
         MM1 = view.findViewById(R.id.MM1);
         CM1 = view.findViewById(R.id.CM1);
@@ -162,6 +163,13 @@ public class FLength extends Fragment {
                 Toast.makeText(view.getContext(), "Thanks For using this app", Toast.LENGTH_SHORT).show();
             }
         });
+        clear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+              editText.getText().clear();
+            }
+        });
         return view;
     }
+
 }

@@ -22,7 +22,7 @@ public class FTemp extends Fragment {
     Spinner spin1;
     EditText editText;
     TextView CL1,FH1,KL1,RE1,RA1;
-    Button button;
+    Button button,clear;
     DecimalFormat df = new DecimalFormat("0.000");
 
     @Override
@@ -32,6 +32,7 @@ public class FTemp extends Fragment {
         spin1=view.findViewById(R.id.spin1);
         editText = view.findViewById(R.id.value1);
         button = view.findViewById(R.id.button);
+        clear = view.findViewById(R.id.clear);
         CL1 = view.findViewById(R.id.CL1);
         FH1 = view.findViewById(R.id.FH1);
         KL1 = view.findViewById(R.id.KL1);
@@ -114,7 +115,12 @@ public class FTemp extends Fragment {
                 }
             }
         });
-
+        clear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editText.getText().clear();
+            }
+        });
         return view;
 
     }

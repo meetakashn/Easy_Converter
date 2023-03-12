@@ -21,7 +21,7 @@ public class FCurrency extends Fragment {
     Spinner spin1;
     EditText editText;
     TextView INR,USD,EUR,JPY,GBP,AUD,CAD;
-    Button button;
+    Button button,clear;
     DecimalFormat df = new DecimalFormat("0.000");
 
     @Override
@@ -31,6 +31,7 @@ public class FCurrency extends Fragment {
         spin1=view.findViewById(R.id.spin1);
         editText = view.findViewById(R.id.value1);
         button = view.findViewById(R.id.button);
+        clear = view.findViewById(R.id.clear);
         INR = view.findViewById(R.id.INR1);
         USD = view.findViewById(R.id.USD);
         EUR = view.findViewById(R.id.EUR);
@@ -165,6 +166,12 @@ public class FCurrency extends Fragment {
 
                     Toast.makeText(view.getContext(), "Thanks For using this app", Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+        clear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editText.getText().clear();
             }
         });
         return view;
