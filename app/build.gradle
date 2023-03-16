@@ -1,21 +1,17 @@
 plugins {
     id 'com.android.application'
 }
-
 android {
     namespace 'com.example.easyconverter'
     compileSdk 33
-
     defaultConfig {
         applicationId "com.example.easyconverter"
-        minSdk 21
+        minSdk 19
         targetSdk 33
-        versionCode 1
-        versionName "1.0"
-
+        versionCode 6
+        versionName "6.1.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
     buildTypes {
         release {
             minifyEnabled false
